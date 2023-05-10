@@ -1,2 +1,1 @@
-# Practice1
-SPM
+Practicing SPM for Wish
