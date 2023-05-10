@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "Practice1",
+    name: "FooPackage",
     platforms: [
         .iOS("15.0")
     ],
     products: [
         .library(
-            name: "Practice1",
+            name: "FooPackage",
             targets: ["FooPackage"]),
     ],
     dependencies: [
@@ -18,7 +18,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Practice1",
+            name: "FooPackage",
             dependencies: [
                 .product(name: "Appwrite", package: "sdk-for-swift")
             ]
