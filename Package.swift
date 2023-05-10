@@ -10,7 +10,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "FooPackage",
+            name: "Practice1",
             targets: ["FooPackage"]),
     ],
     dependencies: [
@@ -18,7 +18,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "FooPackage",
+            name: "Practice1",
             dependencies: [
                 .product(name: "Appwrite", package: "sdk-for-swift")
             ]
