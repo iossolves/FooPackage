@@ -4,12 +4,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "FooPackage",
+    name: "Practice1",
     platforms: [
-        .iOS("15.0"),
-        .macOS("11.0"),
-        .watchOS("7.0"),
-        .tvOS("13.0"),
+        .iOS("15.0")
     ],
     products: [
         .library(
@@ -24,8 +21,7 @@ let package = Package(
             name: "FooPackage",
             dependencies: [
                 .product(name: "Appwrite", package: "sdk-for-swift")
-            ],
-            path: "Source"
+            ]
             ),
         .testTarget(
             name: "FooPackageTests",
