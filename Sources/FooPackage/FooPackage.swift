@@ -3,14 +3,26 @@
 
 import Appwrite
 
-struct FooPackage {
+public struct FooPackage {
 
     public static func login() {
-        print("This is from Foo Package-login!")
+        print("This is from FooPackage-login!")
     }
     
     public static func foo() {
-        print("This is from Foo Package!")
+        print("This is from FooPackage!")
     }
 
+}
+
+public class FooPackageClass {
+    
+    public static func login() {
+        print("This is from FooPackageClass-login!")
+    }
+    
+    public static func foo() {
+        print("This is from FooPackageClass!")
+    }
+    
 }
