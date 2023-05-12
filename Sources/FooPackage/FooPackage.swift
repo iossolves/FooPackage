@@ -1,8 +1,6 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 
-import Appwrite
-
 public struct FooPackage {
 
     public static func login() {
