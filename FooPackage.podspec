@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = "FooPackage"
-    s.version = "1.0.0"
+    s.version = "1.1.1"
     s.summary = "iOSSolves First POD"
 
     s.homepage = "https://github.com/iossolves/FooPackage"
