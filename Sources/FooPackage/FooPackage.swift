@@ -2,25 +2,17 @@
 // https://docs.swift.org/swift-book
 
 public struct FooPackage {
-
-    public static func login() {
-        print("This is from FooPackage-login!")
-    }
     
     public static func foo() {
-        print("This is from FooPackage!")
+        print("This is from FooPackage-Struct!")
     }
 
 }
 
 public class FooPackageClass {
     
-    public static func login() {
-        print("This is from FooPackageClass-login!")
-    }
-    
     public static func foo() {
-        print("This is from FooPackageClass!")
+        print("This is from FooPackage-Class!")
     }
     
 }
